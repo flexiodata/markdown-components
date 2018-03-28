@@ -1,6 +1,6 @@
 # Run Javascript
 
-Show Javascript code in your [Hexo](https://hexo.io/) pages and posts along with a copy and run button to copy the code or run it live on your website.
+Show Javascript code snippets with a copy and run button to copy the code or run it live on your [Hexo](https://hexo.io/) website.
 
 ## Demo
 

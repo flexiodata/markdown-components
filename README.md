@@ -2,13 +2,13 @@
 
 Extend Markdown capabilities on static sites with simple, inline JavaScript apps (using Hexo & Vue.js).
 
+## Demo
+
+[https://flexiodata.github.io/markdown-components/tabs/](https://flexiodata.github.io/markdown-components/tabs/)
+
 ## Live Demo and Tutorial
 
 Here's a blog post on [how we use Markdown Components for our static docs](https://www.flex.io/blog/markdown-syntax-javascript-hexo-vue/), including examples of live code snippets.
-
-## Simple Demo
-
-[https://flexiodata.github.io/markdown-components/tabs/](https://flexiodata.github.io/markdown-components/tabs/)
 
 ## Overview
 

@@ -1,42 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>tabs</title>
+    <title>Tabs | Markdown Components</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Extend Markdown on static sites with simple tabs">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="twitter:title" content="Tabs | Markdown Components">
+    <meta name="twitter:description" content="Extend Markdown on static sites with simple tabs">
+
+    <meta property="og:title" content="Tabs | Markdown Components">
+    <meta property="og:url" content="https://github.com/flexiodata/markdown-components/tree/master/tabs">
+    <meta property="og:description" content="Extend Markdown on static sites with simple tabs">
+
+    <link rel="apple-touch-icon" href="https://s3.amazonaws.com/flexio-app-assets/apple-touch-icon.png">
+    <link rel="icon" href="https://s3.amazonaws.com/flexio-app-assets/favicon.png">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.6.1/tachyons.min.css">
     <link rel="stylesheet" href="dist/tabs.css">
+
     <style>
       html, body {
-        font-family: sans-serif;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #333;
       }
     </style>
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but tabs doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <h1>Tabs</h1>
-    <div id="tab-0" class="js-tabs">
+    <a href="https://github.com/flexiodata/markdown-components/tree/master/tabs"><img class="z-max" style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+
+    <div style="margin: 4rem auto; max-width: 60rem">
+      <h1>Tabs | Markdown Components</h1>
+      <div id="tabs-0" class="js-tabs">
         <div class="js-tabs__header">
-            <div><a class="js-tabs__title js-tabs__title-active" href="#" data-index="0">Tab 1</a></div>
-            <div><a class="js-tabs__title" href="#" data-index="1">Tab 2</a></div>
-            <div><a class="js-tabs__title" href="#" data-index="2">Tab 3</a></div>
+          <div><a class="js-tabs__title js-tabs__title-active" href="#">First Tab</a></div>
+          <div><a class="js-tabs__title" href="#">Second Tab</a></div>
+          <div><a class="js-tabs__title" href="#">Third Tab</a></div>
         </div>
         <div class="js-tabs__content">
-          <div style="padding: 1rem">Tab 1 content</div>
+          <div style="padding: 1rem">First tab contents</div>
         </div>
         <div class="js-tabs__content">
-          <div style="padding: 1rem">Tab 2 content</div>
+          <div style="padding: 1rem">Second tab contents</div>
         </div>
         <div class="js-tabs__content">
-          <div style="padding: 1rem">Tab 3 content</div>
+          <div style="padding: 1rem">Third tab contents</div>
         </div>
+      </div>
     </div>
+
     <script src="dist/tabs.min.js"></script>
     <script>
       new Tabs({
-        elem: 'tab-0',
+        elem: 'tabs-0',
         open: 0
       })
     </script>

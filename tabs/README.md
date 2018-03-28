@@ -4,7 +4,7 @@ Organize content in tabs on your [Hexo](https://hexo.io/) website.
 
 ## Demo
 
-Fork this repo and clone it locally. In the `tabs` subfolder of the target folder where you cloned this repo there is an `index.html` you can open in the browser to see an example of the tabs working.
+[https://flexiodata.github.io/markdown-components/tabs/](https://flexiodata.github.io/markdown-components/tabs/)
 
 ## Installation
 

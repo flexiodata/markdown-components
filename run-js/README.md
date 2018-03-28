@@ -29,3 +29,12 @@ To install this component and use it with your own static site, do the following
 <CODE GOES HERE>
 ```
 ````
+
+## Options
+
+| Attribute | Type | Description | Accepted Values | Default |
+|:--------|:--------|:--------|:--------|:------:|
+| **show-buttons** | boolean | Show or hide buttons in the upper-right corner | &mdash; | true |
+| **buttons** | array | Choose which buttons to show in the upper-right corner | 'copy', 'run' | ['copy', 'run'] |
+| **copy-prefix** | string | Text to prepend to the code when the copy button is clicked | &mdash; | *empty string* |
+| **copy-suffix** | string | Text to append to the code when the copy button is clicked | &mdash; | *empty string* |

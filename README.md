@@ -18,5 +18,5 @@ Each component contains a `README.md` with an explanation of what it does and ho
 
 | Component | Source |
 |:--------|:------:|
-| **Run Javascript** <br/> Show Javascript code in your pages and posts along with a copy and run button to copy the code or run it live on the website. | [Source](https://github.com/flexiodata/markdown-components/tree/master/run-js) |
+| **Run Javascript** <br/> Show Javascript code in your pages and posts along with a copy and run button to copy the code or run it live on your website. | [Source](https://github.com/flexiodata/markdown-components/tree/master/run-js) |
 | **Tabs** <br/> Organize content in tabs. | [Source](https://github.com/flexiodata/markdown-components/tree/master/tabs) |

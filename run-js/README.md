@@ -4,7 +4,11 @@ Show Javascript code snippets with a copy and run button to copy the code or run
 
 ## Demo
 
-Fork this repo and clone it locally. In the `run-js` subfolder of the target folder where you cloned this repo, run the following commands:
+[https://flexiodata.github.io/markdown-components/run-js/](https://flexiodata.github.io/markdown-components/run-js/)
+
+## Running Locally
+
+Fork and clone this repo. In the `run-js` subfolder of the target folder where you cloned this repo, run the following commands:
 
 ```
 yarn

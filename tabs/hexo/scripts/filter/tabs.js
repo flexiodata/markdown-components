@@ -96,32 +96,36 @@ function parseContent(str) {
   }
 
   str.replace(tab_regex, function(raw, start, startQuote, lang, content, endQuote, end) {
-      var heading = 'Tab Title'
-      var rest = content
+    var heading = 'Tab Title'
+    var rest = content
 
-      if (content.substring(0, 1) == ':')
-      {
-        heading = content.substring(0, content.indexOf('\n'))
+    if (content.substring(0, 1) == ':')
+    {
+      heading = content.substring(0, content.indexOf('\n'))
 
-        // remove heading string from the rest of the contents
-        rest = rest.substring(heading.length)
+      // remove heading string from the rest of the contents
+      rest = rest.substring(heading.length)
 
-        // remove ':' from heading string
-        if (heading.length > 0)
-          heading = heading.substring(1).trim()
-      }
+      // remove ':' from heading string
+      if (heading.length > 0)
+        heading = heading.substring(1).trim()
+    }
 
-      addHeading(heading)
-      addTabContents(rest)
-      return ''
-    })
+    addHeading(heading)
+    addTabContents(rest)
+    return ''
+  })
 
   /*
-    headings: '<div><a class="js-tabs__title" href="#">Title 4</a></div>',
-    contents: '' +
-      '<div class="js-tabs__content">' +
-        '<p>Tab content #1</p>' +
-      '</div>'
+    Output will be an array of objects with the following structure:
+
+    {
+      headings: '<div><a class="js-tabs__title" href="#">Title 4</a></div>',
+      contents: '' +
+        '<div class="js-tabs__content">' +
+          '<p>Tab content #1</p>' +
+        '</div>'
+    }
   */
 
   return tabs

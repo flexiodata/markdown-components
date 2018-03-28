@@ -18,9 +18,15 @@ It provides components that are injected via Markdown syntax before the static s
 
 Each component contains a `README.md` with an explanation of what it does and how to add it to your static site.
 
-**Have a component you'd like to add?** Submit a PR or [open an issue](https://github.com/flexiodata/markdown-components/issues).
-
 | Component | Source | Demo |
 |:--------|:------:|:------:|
 | **Run Javascript** <br/> A live, runnable, copyable code snippet. | [Source](https://github.com/flexiodata/markdown-components/tree/master/run-js) | https://flexiodata.github.io/markdown-components/run-js/ 
 | **Tabs** <br/> Organize content in tabs. | [Source](https://github.com/flexiodata/markdown-components/tree/master/tabs) | https://flexiodata.github.io/markdown-components/tabs/
+
+## Contributions
+
+**Have a component you'd like to add?** Submit a PR or [open an issue](https://github.com/flexiodata/markdown-components/issues).
+
+## License
+
+MIT

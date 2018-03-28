@@ -1,6 +1,6 @@
 # Markdown Components
 
-Extend Markdown Capabilities on Static Sites with Simple JavaScript Injection (Hexo/Vue.js)
+Extend Markdown Capabilities on Static Sites with Simple, Inline JavaScript apps (using Hexo & Vue.js).
 
 ## Live Demo and Tutorial
 

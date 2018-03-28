@@ -1,29 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>run-js</title>
+    <title>Run Javascript | Markdown Components</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Extend Markdown on static sites with a simple runnable Javascript code snippet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="twitter:title" content="Run Javascript | Markdown Components">
+    <meta name="twitter:description" content="Extend Markdown on static sites with a simple runnable Javascript code snippet">
+
+    <meta property="og:title" content="Run Javascript | Markdown Components">
+    <meta property="og:url" content="https://github.com/flexiodata/markdown-components/tree/master/run-js">
+    <meta property="og:description" content="Extend Markdown on static sites with a simple runnable Javascript code snippet">
+
+    <link rel="apple-touch-icon" href="https://s3.amazonaws.com/flexio-app-assets/apple-touch-icon.png">
+    <link rel="icon" href="https://s3.amazonaws.com/flexio-app-assets/favicon.png">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.6.1/tachyons.min.css">
+
     <style>
       html, body {
-        font-family: sans-serif;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #333;
       }
     </style>
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but run-js doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <h1>Run Javascript</h1>
-    <div id="app">
-      <run-javascript style="margin: 2rem 0" code="alert('Hello, World!')"></run-javascript>
-      <run-javascript style="margin: 2rem 0" code="console.log('Hello, World!')"></run-javascript>
-      <run-javascript style="margin: 2rem 0" code="function() { return 'Hello, World!' }"></run-javascript>
-      <run-javascript style="margin: 2rem 0" code="function() { return { foo: 'bar' } }"></run-javascript>
+    <a href="https://github.com/flexiodata/markdown-components/tree/master/run-js"><img class="z-max" style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+
+    <div style="margin: 4rem auto; max-width: 60rem">
+      <h1>Run Javascript | Markdown Components</h1>
+      <div id="app">
+        <run-javascript style="margin: 2rem 0" code="alert('Hello, World!')"></run-javascript>
+        <run-javascript style="margin: 2rem 0" code="console.log('Hello, World!')"></run-javascript>
+        <run-javascript style="margin: 2rem 0" code="function() { return 'Hello, World!' }"></run-javascript>
+        <run-javascript style="margin: 2rem 0" code="function() { return { foo: 'bar' } }"></run-javascript>
+      </div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
     <script src="https://unpkg.com/vue"></script>
     <script src="./dist/RunJavascript.umd.js"></script>
     <script>

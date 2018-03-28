@@ -1,0 +1,5 @@
+/**
+ * Vanilla JavaScript Tabs v1.0.0
+ * https://zoltantothcom.github.io/vanilla-js-tabs
+ */
+var Tabs=function(e){function t(e){u.addEventListener("click",n);for(var t=a(null==e?s:e),l=0;l<v;l++)u.querySelectorAll("."+f)[l].setAttribute("data-index",l),l===t&&c(l)}function n(e){-1!==e.target.className.indexOf(f)&&(e.preventDefault(),c(e.target.getAttribute("data-index")))}function l(){[].forEach.call(u.querySelectorAll("."+y),function(e){e.style.display="none"}),[].forEach.call(u.querySelectorAll("."+f),function(e){e.className=r(e.className,d)})}function r(e,t){var n=new RegExp("( )"+t+"()","g");return e.replace(n,"")}function a(e){return e<0||isNaN(e)||e>v?0:e}function c(e){l();var t=a(e);u.querySelectorAll("."+f)[t].className+=" "+d,u.querySelectorAll("."+y)[t].style.display=""}function o(e){i(),l(),t(e)}function i(){u.removeEventListener("click",n)}var u=document.getElementById(e.elem),s=e.open||0,f="js-tabs__title",d="js-tabs__title-active",y="js-tabs__content",v=u.querySelectorAll("."+f).length;return t(),{open:c,update:o,destroy:i}};

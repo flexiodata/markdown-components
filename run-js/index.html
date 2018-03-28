@@ -45,6 +45,9 @@
     <script src="https://unpkg.com/vue"></script>
     <script src="./dist/RunJavascript.umd.js"></script>
     <script>
+      // add clipboard support with Clipboard.js
+      new Clipboard('.clipboardjs, [data-clipboard-text], [data-clipboard-target]')
+
       new Vue({
         components: {
           RunJavascript

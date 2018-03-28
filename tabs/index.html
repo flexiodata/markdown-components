@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>tabs</title>
+    <link rel="stylesheet" href="dist/tabs.css">
+    <style>
+      html, body {
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but tabs doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <h1>Tabs</h1>
+    <div id="tab-0" class="js-tabs">
+        <div class="js-tabs__header">
+            <div><a class="js-tabs__title js-tabs__title-active" href="#" data-index="0">Tab 1</a></div>
+            <div><a class="js-tabs__title" href="#" data-index="1">Tab 2</a></div>
+            <div><a class="js-tabs__title" href="#" data-index="2">Tab 3</a></div>
+        </div>
+        <div class="js-tabs__content">
+          <div style="padding: 1rem">Tab 1 content</div>
+        </div>
+        <div class="js-tabs__content">
+          <div style="padding: 1rem">Tab 2 content</div>
+        </div>
+        <div class="js-tabs__content">
+          <div style="padding: 1rem">Tab 3 content</div>
+        </div>
+    </div>
+    <script src="dist/tabs.min.js"></script>
+    <script>
+      new Tabs({
+        elem: 'tab-0',
+        open: 0
+      })
+    </script>
+  </body>
+</html>

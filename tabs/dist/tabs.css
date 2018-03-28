@@ -7,6 +7,9 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background: #f5f5f5;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 .js-tabs__header > div {
   display: inline-block;
@@ -18,8 +21,11 @@
   color: #357edd;
   cursor: pointer;
   display: block;
+  margin-top: -1px;
   margin-right: -1px;
-  padding: 0.25em 1em;
+  padding: 0.5em 1em;
+  font-size: 0.875rem;
+  text-decoration: none;
 }
 .js-tabs__title:hover {
   text-decoration: none;

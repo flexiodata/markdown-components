@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>run-js</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.6.1/tachyons.min.css">
+    <style>
+      html, body {
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but run-js doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <h1>Run Javascript</h1>
+    <div id="app">
+      <run-javascript style="margin: 2rem 0" code="alert('Hello, World!')"></run-javascript>
+      <run-javascript style="margin: 2rem 0" code="console.log('Hello, World!')"></run-javascript>
+      <run-javascript style="margin: 2rem 0" code="function() { return 'Hello, World!' }"></run-javascript>
+      <run-javascript style="margin: 2rem 0" code="function() { return { foo: 'bar' } }"></run-javascript>
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script src="./dist/RunJavascript.umd.js"></script>
+    <script>
+      new Vue({
+        components: {
+          RunJavascript
+        }
+      }).$mount('#app')
+    </script>
+  </body>
+</html>

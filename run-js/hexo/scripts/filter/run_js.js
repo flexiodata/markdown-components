@@ -1,14 +1,14 @@
 /**
- * Name: Flex.io Code Example
+ * Name: Run Javascript
  *
  * Syntax:
  *
- * ```runjs:{ options }
+ * ```run-js:{ options }
  * <CODE GOES HERE>
  * ```
  */
 
-var regex = /(\s*)(```)\s*(runjs)\s*\n?([\s\S]+?)\s*(\2)(\n+|$)/g
+var regex = /(\s*)(```)\s*(run-js)\s*\n?([\s\S]+?)\s*(\2)(\n+|$)/g
 
 function htmlEscape(text) {
   return text
@@ -26,7 +26,7 @@ function ignore(data) {
 }
 
 function getId(index) {
-  return 'runjs-app-' + index
+  return 'run-js-app-' + index
 }
 
 function getMarkupInclude(id, code, options) {

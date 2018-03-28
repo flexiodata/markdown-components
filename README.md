@@ -6,6 +6,10 @@ Extend Markdown capabilities on static sites with simple, inline JavaScript apps
 
 Here's a blog post on [how we use Markdown Components for our static docs](https://www.flex.io/blog/markdown-syntax-javascript-hexo-vue/), including examples of live code snippets.
 
+## Simple Demo
+
+[https://flexiodata.github.io/markdown-components/tabs/](https://flexiodata.github.io/markdown-components/tabs/)
+
 ## Overview
 
 Static site generators are fantastic, but migrating an existing site from CMS system does come at the cost of some classic front-end components. For instance, WordPress has a thriving plugin ecosystem which allows simple custom strings to be inserted into posts which are hooks for adding things like embedded YouTube videos, lightboxes for images and a host of other cool dynamic components that spice up your site. When everything is written in Markdown, this simple functionality isn't really possible outside of raw HTML or raw JavaScript.

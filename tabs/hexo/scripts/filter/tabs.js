@@ -4,12 +4,13 @@
  * Syntax:
  *
  * [[[tabs
- * (((tab:First Tab
- * First tab contents
- * )))
- * (((tab:Second Tab
- * Second tab contents
- * )))
+ *   (((tab:First Tab
+ *   First tab contents
+ *   )))
+ *
+ *   (((tab:Second Tab
+ *   Second tab contents
+ *   )))
  * ]]]
  */
 
